@@ -1,0 +1,1 @@
+A canary deployment is **a progressive rollout of an application that splits traffic between an already-deployed version and a new version, rolling it out to a subset of users before rolling out fully**
