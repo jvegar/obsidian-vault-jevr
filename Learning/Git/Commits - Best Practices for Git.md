@@ -25,7 +25,7 @@ git commit -m "Fix bug"
 ```
 
 #### Follow Conventional Commit Guidelines
-You can use the standard commit guidelines to keep your git history clean, consistent and easy to read. Usually these guidelines interpret in the form of type (***feat, fix, chore, refactor docs***), and ***short summary*** plus occasionally a long explanation or REF to other relative issues.  
+You can use the standard commit guidelines to keep your git history clean, consistent and easy to read. Usually these guidelines interpret in the form of type (***feat, fix, chore, refactor, docs***), and ***short summary*** plus occasionally a long explanation or REF to other relative issues.  
 Example:
 ```sh
 # Good commit message following conventional guidelines
