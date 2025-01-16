@@ -1,13 +1,36 @@
 ### Naming convention for Software Projects
 
-`purpose_domain_platform`
+`[domain/purpose]-[main-function]-[qualifier]`
 
 Where:
 
-- `purpose`: What the project does (e.g., api, client, admin, worker)
-- `domain`: The business/functional area (e.g., auth, payment, inventory)
-- `platform`: Technology or framework used (optional) (e.g., node, react, python)
+- domain/purpose: The industry or main purpose (e.g., ecommerce, finance, auth)
+- main-function: The core functionality (e.g., api, service, client)
+- qualifier: Optional additional context (e.g., core, admin, mobile)
 
-```
-api_user_management_node client_inventory_react worker_email_processor_python api_payment_gateway_go admin_dashboard_vue service_data_analytics_java client_authentication_react worker_image_processor_python api_order_management_node mobile_chat_client_flutter
+Real-world examples:
+
+```sh
+# APIs and Services
+payment-gateway-api 
+user-authentication-service 
+inventory-management-api 
+order-processing-service
+
+# Frontend Applications
+ecommerce-admin-dashboard 
+customer-support-portal 
+finance-reporting-client 
+inventory-tracking-mobile
+
+# Libraries and Tools 
+data-validation-utils 
+image-processing-library 
+log-analysis-tools 
+config-management-core
+
+# Microservices` 
+notification-email-service 
+search-indexing-service 
+recommendation-engine-service`
 ```
