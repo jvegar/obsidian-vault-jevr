@@ -1,0 +1,4 @@
+- ~~Clean GitHub repository~~
+- Create GitHub task processing
+	- Learn about Azure Functions
+- Learning reducer and context in React

@@ -80,4 +80,6 @@ Hummus (puedes comprarlo o prepararlo en casa)
 Cúrcuma en polvo (para añadir a las sopas)
 Sal y pimienta al gusto
 
-
+```
+$query.Query = "<Where><Eq><FieldRef Name='FSObjType' /><Value Type='Integer'>0</Value></Eq></Where>"
+```
