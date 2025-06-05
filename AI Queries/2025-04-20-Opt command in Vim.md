@@ -1,3 +1,4 @@
+#Vim #opt_command
 In Vim, the command `:set opt?` is used to display the current value of a specific option (`opt` in this case).
 
 ### Breakdown:

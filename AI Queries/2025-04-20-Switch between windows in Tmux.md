@@ -1,3 +1,4 @@
+#Tmux #switch_windows
 In Tmux, you can switch between windows using various key combinations. Here are the most common methods:
 
 ### Basic Window Navigation

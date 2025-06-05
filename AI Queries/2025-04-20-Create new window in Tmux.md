@@ -1,3 +1,4 @@
+#Tmux #create_new_window
 To create a new window in Tmux, you can use one of the following methods:
 
 ### 1. **Default Key Binding (Recommended)**

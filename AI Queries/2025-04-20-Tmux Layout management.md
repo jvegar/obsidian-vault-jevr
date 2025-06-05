@@ -1,3 +1,4 @@
+#Tmux #layout_management
 Tmux (Terminal Multiplexer) manages its layout through a hierarchical structure of sessions, windows, and panes, combined with a powerful tiling system. Here's a detailed breakdown:
 
 ### 1. **Hierarchy**
