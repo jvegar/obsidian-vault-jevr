@@ -1,3 +1,4 @@
+#git #upstream
 In Git, **"upstream"** refers to the default remote repository and branch that your local branch tracks for pushes and pulls. It establishes a relationship between your local branch and a corresponding remote branch, making it easier to synchronize changes.  
 
 ### Key Concepts:

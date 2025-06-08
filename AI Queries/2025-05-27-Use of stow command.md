@@ -1,3 +1,4 @@
+#stow #symlink
 # Using the `stash` Command in Ubuntu
 
 The `stash` command (also known as `stow`) is a **symlink** manager that helps organize and manage software installations in Unix-like systems. Here's how to use it in Ubuntu:

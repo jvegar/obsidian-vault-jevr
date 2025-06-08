@@ -1,3 +1,4 @@
+#neovim #lsp
 # LSP in Neovim Context
 
   LSP stands for Language Server Protocol, a standardized protocol that enables

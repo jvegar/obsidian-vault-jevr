@@ -1,3 +1,4 @@
+#neovim #buffers
 # Buffers in Neovim
 
 Buffers in Neovim (and Vim) are the fundamental containers that hold the text you're editing. They represent open files in memory, but they're more flexible than just files.

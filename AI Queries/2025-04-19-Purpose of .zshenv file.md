@@ -1,3 +1,4 @@
+#zsh #zshenv
 The `.zshenv` file is a configuration file used by the **Z shell (zsh)**. It serves a specific purpose in the zsh initialization process:
 
 ### Purpose of `.zshenv`:

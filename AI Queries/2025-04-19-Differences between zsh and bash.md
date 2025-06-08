@@ -1,3 +1,4 @@
+#zsh #bash
 Zsh (Z Shell) and Bash (Bourne-Again SHell) are both Unix/Linux shells, but they have several key differences in features, usability, and customization. Here’s a breakdown of their main differences:
 
 ### **1. Features & Compatibility**  

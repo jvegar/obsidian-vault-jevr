@@ -1,3 +1,4 @@
+#unicode #ascii
 # Differences Between Unicode and ASCII
 
 ## ASCII (American Standard Code for Information Interchange)

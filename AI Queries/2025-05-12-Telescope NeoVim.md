@@ -1,3 +1,4 @@
+#neovim #telescope
 In the context of Neovim (Nvim), **Telescope** is a highly extensible, fuzzy-finder plugin that allows you to efficiently search and navigate through files, buffers, git changes, grep results, and more. It is one of the most popular plugins in the Neovim ecosystem due to its speed, flexibility, and powerful filtering capabilities.
 
 ### **Key Features of Telescope:**

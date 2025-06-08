@@ -1,3 +1,4 @@
+#shell
 Certainly! Logical comparisons in shell scripting are crucial for controlling script flow and decision-making. Here's a comprehensive breakdown:
 
 ---

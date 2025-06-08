@@ -1,3 +1,4 @@
+#neovim 
 Certainly! Here’s a curated list of popular Neovim plugins that can significantly enhance your coding workflow:
 
 ### 1. **Language Server Protocol (LSP)**

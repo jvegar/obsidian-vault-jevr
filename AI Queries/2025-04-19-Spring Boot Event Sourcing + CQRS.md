@@ -1,3 +1,4 @@
+#spring #crqs #event-sourcing
 Implementing Event Sourcing and CQRS (Command Query Responsibility Segregation) in Spring Boot can be a powerful way to build scalable and maintainable systems. Below is a step-by-step guide to implementing these patterns in a Spring Boot application.
 
 ---

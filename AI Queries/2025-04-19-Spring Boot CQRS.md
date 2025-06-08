@@ -1,3 +1,4 @@
+#spring #java #cqrs
 Implementing the Command Query Responsibility Segregation (CQRS) pattern in a Spring Boot application involves separating the read and write operations into distinct models. Here’s a step-by-step guide to implementing CQRS in Spring Boot:
 
 ### 1. **Define the Command and Query Models**
