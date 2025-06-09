@@ -77,3 +77,36 @@ Tags can have these different levels:
 - 🗃/🌳Evergreen/Permanent Notes. These long-running notes will end up in [Zettelkasten](http://ssp.sh/brain/zettelkasten) core with my own words. Here, I separated the literature notes into different ideas to follow the Zettelkasten principle and link them together.
 
 This way, I can easily find different levels and quality of my notes, Evergreen being the best, in case I want only well-edited and long-running notes and hide freshly generated ones. See all of my tags in [Taxonomy of note types](http://ssp.sh/brain/taxonomy-of-note-types).
+
+Although I have started updating the tags less lately, as I have gotten less of this specific need, it would still be there. I also don't take much time to review my notes and process them from [Literature Notes](http://ssp.sh/brain/literature-notes) to [Permanent Notes](http://ssp.sh/brain/permanent-notes), as I start every note as if they were a permanent note and then add as I go, except for some unique templates like journal, book, or reflection templates.
+
+See a complete list fo my templates:
+![[Pasted image 20250608214043.png]]
+I can use every template at my fingertips if I read another book. I hit `cmd+t`, type `book`, and hit `enter`. Type the name of the book and type `enter` again. Now, I have a note prepared with my book with all the relevant tags and information I wan to add, but most importantly, I can immediately take notes of insights and keep them for later.
+
+This is what the `📚 Book Template` looks like:
+```Markdown
+# <% tp.file.title %>
+- Tags / Categories: #📬 #📚 #reading
+- Date: <% tp.date.now(format="YYY-MM-DD") %>
+- Author: Author Name
+- Type: Books
+- Genre: #self-help
+- Related:
+- Started reading: <% tp.date.now(format="YYYY-MM-DD") %>
+- Finished reading:
+- Origin:
+> [!summary]
+>
+> Write a summary of what you are reading. This is where your thinking happens. where you get something out of your book.
+
+## Notes During Reading
+- ...
+- 
+```
+
+# Plugins I Use
+Some of my main plugins I use often in alphabetical order:
+- **dataview**: Database feature for within Markdown. Like SQL for notes, you can query lists of open todos, backlinks, and almost anything.
+- **excalibrain**: This is used to get insights into particular notes and their connections. Visualize its connections and highlight notes that have links both ways.
+	-  Maybe even better is [Obsidian Smart Connections](http://ssp.sh/brain/obsidian-smart-connections), but I do not use that since I am sending my personal notes to OpenAI. I am waiting for a local first solution; some trials I noted on [Second Brain Assistant with Obsidian (NoteGPT)](http://ssp.sh/brain/second-brain-assistant-with-obsidian-notegpt).
