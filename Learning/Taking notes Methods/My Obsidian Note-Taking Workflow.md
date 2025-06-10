@@ -110,3 +110,59 @@ Some of my main plugins I use often in alphabetical order:
 - **dataview**: Database feature for within Markdown. Like SQL for notes, you can query lists of open todos, backlinks, and almost anything.
 - **excalibrain**: This is used to get insights into particular notes and their connections. Visualize its connections and highlight notes that have links both ways.
 	-  Maybe even better is [Obsidian Smart Connections](http://ssp.sh/brain/obsidian-smart-connections), but I do not use that since I am sending my personal notes to OpenAI. I am waiting for a local first solution; some trials I noted on [Second Brain Assistant with Obsidian (NoteGPT)](http://ssp.sh/brain/second-brain-assistant-with-obsidian-notegpt).
+- **note-folder-autorename**: Used initially when you have lots of images and want them to be inside a folder; this creates a folder with the name of the note and adds your note to that folder. There is no need to do all of it manually; configure a shortcut.
+- **obsidian-admonition**: These are [Admonition (Call-outs)](http://ssp.sh/brain/admonition-call-outs) I use all the time. This makes articles or notes look excellent without breaking the reading flow. For example, add a summary, a quick note, or insight you don't necessarily want to put inside the text.
+- **obsidian-auto-link-title**: If you paste a link, it will automatically add the link's title as the name.
+- **obsidian-excalidraw-plugin**: Drawing within Markdown
+	- It's not a template, but what I use all the time is [Mermaid](http://ssp.sh/brain/mermaid). It's an even better way of drawing with Markdown, as it's just declarative text that you can generate or update without needing a visual edit. This means I can stay in Vim mode :)
+- **obsidian-list-callouts**: The same as Admonitions, but with lists. I added one late, but it's super powerful as I use a lot of lists.
+- **obsidian-pandoc**: Used for exporting it to a Word document, PDF, or others when I want to share it with other people.
+- **obsidian-projects**: Notion-like database views with Kanban, Table view, calendar, and gallery, all nicely integrated into Markdown.
+- **obsidian-reading-time**: Shows the reading time of each note.
+- **obsidian-vimrc-support**: Additional Vim shortcuts from my Vim configs. See also in  my [dotfiles](https://github.com/sspaeti/dotfiles/blob/master/obsidian/.vimrc?ref=ssp.sh).
+- **ollama**: My initial play used for local LLM on my notes.
+- **omnisearch**: Default fuzzy search when I open or search new notes with `cmd+o`.
+- **readwise-official:** [ReadWise](http://ssp.sh/brain/readwise) integration that syncs all my comments and highlights from articles I read online or on Kindle.
+- **remember-cursor-position**: A simple plugin that stores my cursor position for each note.
+- **settings-search**: Simply search all obsidian settings instead of clicking through them.
+- **template-obsidian**: Extended feature for templates
+You can find all plugins, hotkeys, and Obsidian settings on my [dotfiles](https://github.com/sspaeti/dotfiles/blob/master/obsidian/?ref=ssp.sh).
+
+# How I Share Notes Publicly
+If you click on my "brain" on this website, you'll see all the notes I share publicly. These are the same notes I have in my personal Obsidian Vault, with the only difference being and added hashtag `#publish`.
+
+I share the notes with [Quartz](http://ssp.sh/brain/quartz-publish-obsidian-vault), an [open-source alternative](https://www.ssp.sh/brain/open-source-obsidian-publish-alternatives/) to [Obsidian Publish](https://obsidian.md/publish?ref=ssp.sh). If you haven't seen it, please check it out; it's outstanding.
+
+I have an additional script that processes all my notes, copies the ones with the hashtags #publish into Quartz, and then deploys them on my website. I wrote more about that process and included my script on [Public Second Brain with Quartz](http://ssp.sh/brain/public-second-brain-with-quartz).
+
+The nice thing about Quartz is that it showcases the Obsidian graph and its backlinks. This makes it a powerful tool to explore notes and articles exploitatively, also called a [Digital Garden](http://ssp.sh/brain/digital-garden). Instead of having one-dimensional blogs or glossaries, you can go inward and click on each link you like. The longer you write, the more links you have, and you can link to your vault instead of external pages.
+
+I wrote a little more about it on the [Future of Blogging](http://ssp.sh/brain/future-of-blogging). as I believe this should be the next step for personal blogs and to grasp dense information. Also, instead of creating copies of the same articles and adding a new year to the title, we can update the actual notes, leading to [continuous notes](http://ssp.sh/brain/continuous-notes) that get constantly updated and improve over time. You do not start from a blank page.
+
+Image if everyone would update their articles or notes instead of creating copies repeatedly; the internet would get a web of remarkable, highly valuable notes. This is one aspect I try with my [Public Second Brain](https://brain.ssp.sh/).
+
+#### Feedback Loop: How Sharing and feedback helps me to learn more
+A side effect of sharing publicly is that I get lots of feedback. This feedback loop is the most essential thing that has led me to write to this day. The satisfaction I get from you guys giving me feedback, telling me that it was helpful pointing out some alternatives or just making friends online, is something you can't replicate in the real world and is hard to conceive until you've experienced it.
+
+Sharing my passion and finding like-minded people as a side effect will make me want to share more. Some call it **Learn in Public**, which I suggest to anyone, even when starting.
+
+# In Summary
+In conclusion, Obsidian and the Second Brain gave me everything I ever dreamed of when I started taking notes. Even things I didn't know would help me or that I would need. E.g., a graph-based approach. Never would I have thought, as an organized Swiss person, that I would leave the path of putting everything into folder structures to find easily.
+
+The result is more clarity and peace of mind, as I can quickly put down an insight or an exciting thought in my Obsidian Vault an go on with life. For example, at a doctor's appointment or when you get an allergy test, wouldn't be handy to pull yo at any time? Exactly! As well as finding that any note intuitively later when needed.
+
+Another big one is the offline accessibility of all my knowledge. When writing or being somewhere remote, you will have all your (second) brain and can search for something quickly. It also allows [deep work](https://www.ssp.sh/brain/deep-work) to turn off all internet for a mote extended period and go into focus mode.
+
+This happens more often lately that I do google less, but instead search my second brain as I have written it down as I googled it already more than once and just added it to my Obsidian.
+
+This was a quick rant that I jotted down fast, but I hope it is still attractive to some of you. And please ask me any question you might have; I'm super passionate about it and happy to share more or lean from your workflow.
+
+# Follow-Ups
+If you want a deeper dive into PKM with Smart Note Taking, Second Brain, Zettelkastem Getting Thins Done (GTD, and Deep Life, check out my 6.5k words article about [Personal Knowledge Management Workflow for a Deeper Life - as a Computer Scientist](http://ssp.sh/blog/pkm-workflow-for-a-deeper-life/).
+To know more about my Vim workflow, check out my two articles, [My Vim-verse](https://www.ssp.sh/blog/my-vimverse/) and[ Why Vim Is More Than a Just An Editor](http://ssp.sh/blog/why-using-neovim-data-engineer-and-writer-2023/). I also created a short [Video on YouTube](https://youtu.be/LQasaw4MkqE?si=awDwQt160Wd4COGv&ref=ssp.sh) and wrote about [Vim for Obsidian](http://ssp.sh/brain/vim-for-obsidian).
+
+[Markdown vs Rich Text](http://ssp.sh/brain/markdown-vs-rich-text) or [Local First](http://ssp.sh/brain/plaintext-files) are two other rabbit holes I went down. YouTube videos I enjoyed showcasing Obsidian:
+- [Optimal Note Taking Framework for all subjects using Obsidian](https://youtu.be/LyOIvoHtRCM?ref=ssp.sh)
+- [The Rise of Obsidian as a Second Brain](https://youtu.be/nz99I7apNLI?ref=ssp.sh)
+- [Hack Your Brain With Obsidian.md](- [Hack Your Brain With Obsidian.md](https://youtu.be/DbsAQSIKQXk?ref=ssp.sh))
+Or of check my efficient Markdown collaboration via HackMD and Obsidian, Neovim, VSCode video.
