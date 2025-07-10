@@ -1,4 +1,4 @@
-# Chapter 1: Command Handling (Controllers & Commands)
+;# Chapter 1: Command Handling (Controllers & Commands)
 
 Welcome to the `assignment.cmd.api` tutorial! This is the first chapter, and we'll start with the basics: how does our application know *what* it needs to do?
 

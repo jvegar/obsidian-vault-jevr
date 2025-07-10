@@ -1,4 +1,11 @@
 #unicode #ascii
+
+> [!SUMMARY]+ Table of Contents
+>- [Differences Between Unicode and ASCII](2025-04-27-Differences%20between%20Unicode%20and%20ASCII.md#Differences%20Between%20Unicode%20and%20ASCII)
+>    - [ASCII (American Standard Code for Information Interchange)](2025-04-27-Differences%20between%20Unicode%20and%20ASCII.md#ASCII%20(American%20Standard%20Code%20for%20Information%20Interchange))
+>    - [Unicode](2025-04-27-Differences%20between%20Unicode%20and%20ASCII.md#Unicode)
+>    - [Key Differences](2025-04-27-Differences%20between%20Unicode%20and%20ASCII.md#Key%20Differences)
+
 # Differences Between Unicode and ASCII
 
 ## ASCII (American Standard Code for Information Interchange)

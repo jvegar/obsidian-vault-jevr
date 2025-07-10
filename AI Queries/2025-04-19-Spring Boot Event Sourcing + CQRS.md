@@ -1,5 +1,16 @@
 #spring #crqs #event-sourcing
 Implementing Event Sourcing and CQRS (Command Query Responsibility Segregation) in Spring Boot can be a powerful way to build scalable and maintainable systems. Below is a step-by-step guide to implementing these patterns in a Spring Boot application.
+## 📋 Table of Contents
+
+- [[#1. Understand the Patterns|1. Understand the Patterns]]
+- [[#2. Project Setup|2. Project Setup]]
+- [[#3. Define the Domain Model|3. Define the Domain Model]]
+- [[#4. Define Commands and Events|4. Define Commands and Events]]
+- [[#5. Separate Read and Write Models|5. Separate Read and Write Models]]
+- [[#6. Configure Axon Framework|6. Configure Axon Framework]]
+- [[#7. Testing|7. Testing]]
+- [[#Benefits and Considerations|Benefits and Considerations]]
+- [[#Resources|Resources]]
 
 ---
 

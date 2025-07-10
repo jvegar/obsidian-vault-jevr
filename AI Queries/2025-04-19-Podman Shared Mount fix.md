@@ -1,5 +1,15 @@
 #podman
 To resolve the warning `WARN[0001] "/" is not a shared mount...` in rootless containers (e.g., Podman/Docker), follow these steps:
+## 📋 Table of Contents
+
+- [[#1. Temporarily Fix Mount Propagation (Non-Persistent)|1. Temporarily Fix Mount Propagation (Non-Persistent)]]
+- [[#2. Make the Change Persistent|2. Make the Change Persistent]]
+  - [[#Option A: Systemd Service (Recommended)|Option A: Systemd Service (Recommended)]]
+  - [[#Option B: Modify /etc/fstab (Advanced)|Option B: Modify /etc/fstab (Advanced)]]
+- [[#3. Configure User Namespaces (Podman/Docker Rootless)|3. Configure User Namespaces (Podman/Docker Rootless)]]
+- [[#4. Verify the Fix|4. Verify the Fix]]
+- [[#5. Apply Changes to Containers|5. Apply Changes to Containers]]
+- [[#Why This Happens:|Why This Happens:]]
 
 ---
 

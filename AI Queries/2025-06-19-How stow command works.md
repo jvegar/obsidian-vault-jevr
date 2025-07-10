@@ -1,5 +1,10 @@
 The `stow` command is a GNU utility used for managing the installation of software packages by creating symbolic links from a central location (usually `/usr/local` or `~/`) to files in a package directory. It helps keep files organized while avoiding conflicts with system package managers (like `apt` or `yum`).
 
+>[!SUMMARY] Table of Contents
+>        - [[2025-06-19-How stow command works#How stow Works:|How stow Works:]]
+>        - [[2025-06-19-How stow command works#Example: Managing Dotfiles with stow|Example: Managing Dotfiles with stow]]
+>        - [[2025-06-19-How stow command works#Common Flags:|Common Flags:]]
+
 ### How `stow` Works:
 1. **Directory Structure**:  
    - By default, `stow` expects packages to be organized in a specific directory structure. For example:  

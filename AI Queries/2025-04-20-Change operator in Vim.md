@@ -1,5 +1,14 @@
 #Vim #change_operator
 Certainly! The change (`c`) operator in Vim is one of the most powerful and frequently used operators for deleting text and immediately entering insert mode to replace it. Here's a detailed breakdown:
+## 📋 Table of Contents
+
+- [[#Basic Usage|Basic Usage]]
+- [[#Common Examples|Common Examples]]
+- [[#Key Behaviors|Key Behaviors]]
+- [[#Comparison with Other Operators|Comparison with Other Operators]]
+- [[#Pro Tips|Pro Tips]]
+
+---
 
 ### **Basic Usage**
 The `c` operator follows Vim's standard operator-motion syntax:

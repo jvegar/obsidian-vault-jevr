@@ -1,23 +1,40 @@
+
 #zsh #bash
 Zsh (Z Shell) and Bash (Bourne-Again SHell) are both Unix/Linux shells, but they have several key differences in features, usability, and customization. Here’s a breakdown of their main differences:
+## 📋 Table of Contents
+
+- [[#1. Features & Compatibility|1. Features & Compatibility]]
+  - [[#- Bash:|- Bash:]]
+  - [[#- Zsh:|- Zsh:]]
+- [[#2. Command-Line Editing & Completion|2. Command-Line Editing & Completion]]
+  - [[#- Bash:|- Bash:]]
+  - [[#- Zsh:|- Zsh:]]
+- [[#3. Customization & Plugins|3. Customization & Plugins]]
+- [[#4. Scripting Differences|4. Scripting Differences]]
+- [[#5. Default Behavior & User Experience|5. Default Behavior & User Experience]]
+- [[#6. Performance|6. Performance]]
+- [[#Which One Should You Use?|Which One Should You Use?]]
+- [[#Conclusion|Conclusion]]
+
+---
 
 ### **1. Features & Compatibility**  
-- **Bash**:  
+#### - **Bash**:  
   - Default shell on most Linux distributions and macOS (until macOS Catalina, which switched to zsh).  
   - Highly POSIX-compliant, making it more universally compatible.  
   - Scripts written in Bash are more likely to run on other systems without modification.  
 
-- **Zsh**:  
+#### - **Zsh**:  
   - Designed as an interactive shell with powerful scripting capabilities.  
   - Has many features that improve user experience (e.g., better tab completion, globbing, and spelling correction).  
   - Not fully POSIX-compliant, so some Bash scripts may need adjustments to work in zsh.  
 
 ### **2. Command-Line Editing & Completion**  
-- **Bash**:  
+#### - **Bash**:  
   - Basic tab completion (filename and command completion).  
   - Limited interactive features by default (requires manual configuration).  
 
-- **Zsh**:  
+#### - **Zsh**:  
   - Far superior tab completion (e.g., case-insensitive, partial matches, menu selection).  
   - Advanced globbing (e.g., recursive file matching `**/*.txt`).  
   - Better auto-correction (`setopt correct`).  

@@ -1,5 +1,16 @@
 #shell
 Certainly! Logical comparisons in shell scripting are crucial for controlling script flow and decision-making. Here's a comprehensive breakdown:
+## 📋 Table of Contents
+
+- [[#1. Basic Comparison Syntax|1. Basic Comparison Syntax]]
+- [[#2. Numeric Comparisons|2. Numeric Comparisons]]
+- [[#3. String Comparisons|3. String Comparisons]]
+- [[#4. File Tests|4. File Tests]]
+- [[#5. Logical Operators|5. Logical Operators]]
+- [[#6. Arithmetic Comparisons with (( ))|6. Arithmetic Comparisons with (( ))]]
+- [[#7. Common Pitfalls|7. Common Pitfalls]]
+- [[#Practical Example|Practical Example]]
+- [[#Key Takeaways|Key Takeaways]]
 
 ---
 

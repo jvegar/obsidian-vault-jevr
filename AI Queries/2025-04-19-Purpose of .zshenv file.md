@@ -1,5 +1,14 @@
 #zsh #zshenv
 The `.zshenv` file is a configuration file used by the **Z shell (zsh)**. It serves a specific purpose in the zsh initialization process:
+## 📋 Table of Contents
+
+- [[#Purpose of .zshenv:|Purpose of .zshenv:]]
+- [[#Key Differences from .zshrc:|Key Differences from .zshrc:]]
+- [[#When to Use .zshenv vs Other Files:|When to Use .zshenv vs Other Files:]]
+- [[#Example .zshenv Contents:|Example .zshenv Contents:]]
+- [[#Best Practices:|Best Practices:]]
+
+---
 
 ### Purpose of `.zshenv`:
 1. **Environment Variables** – It is primarily used to set **environment variables** that should be available in all zsh sessions, including:
