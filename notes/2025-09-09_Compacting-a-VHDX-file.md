@@ -1,3 +1,14 @@
+---
+date: 2025-09-09
+tags:
+  - #code-snip
+  - #wsl
+hubs:
+  - "[[]]"
+urls:
+  -
+---
+
 # How to compact a VHD file
 
 Be sure to stop your WSL distro first.
