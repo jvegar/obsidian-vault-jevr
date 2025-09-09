@@ -6,10 +6,11 @@ there was too much lag when typing, even if all plugins
 were disabled.
 
 ## Cause
-When Obsidian, tried to read the vault from Windows file system,
-internally there was a convertion I/O process which added to much
-load to reading operations.
+When NeoVim tries to read the vault from Windows file system,
+it has to go trough a translation layer to access the Windows NT file system.
+Thi I/O overhead on every keystroke can turn a tiny delay into a noticeable lag.
 
 ## Solution
-After moving the vault from Windows file system to
-WSL file system, the performace increased considerably.
+After moving the vault from Windows file system to the
+WSL file system, the performace increased considerably, 
+as a result the lag disappeared.
