@@ -1,0 +1,1 @@
+It's a mechanism to access resources, where the system call **always returns immediately** without waiting for the data to be read or written. If no results are available at the moment of the call, the function will simply return a predefined constant, indicating that there is no data available to return at that moment.

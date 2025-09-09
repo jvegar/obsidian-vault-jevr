@@ -45,6 +45,29 @@ while (!resources.isEmpty()) {
 Polling algorithms usually result in a huge amount of wasted CPU time.
 
 ### Event demultiplexing
+[[Busy-waiting]] is definitely not an ideal technique for processing non-blocking resources, but luckily, most modern operating systems provide a native mechanism to handle concurrent- non-blocking resources in an efficient way. We are talking about the **Synchronous Event [[Demultiplexer]]** (also know as the **event notification interface**).
+
+This watches multiple resources and returns a new event (or set of events) when a read or write operation executed over one of those resources completes. The advantage here is that the synchronous event demultiplexer is, of course, synchronous, so it blocks until there are new events to process.
+
+```js
+watchedList.add(socketA, FOR_READ)                            // (1)
+watchedList.add(fileB, FOR_READ)
+while (events = demultiplexer.watch(watchedList)) {           // (2)
+  // event loop
+  for (event of events) {                                     // (3)
+    // This read will never block and will always return data
+    data = event.resource.read()
+    if (data === RESOURCE_CLOSED) {
+      // the resource was closed, remove it from the watched list
+      demultiplexer.unwatch(event.resource)
+    } else {
+      // some actual data was received, process it
+      consumeData(data)
+    }
+  }
+}
+```
+
 
 
 

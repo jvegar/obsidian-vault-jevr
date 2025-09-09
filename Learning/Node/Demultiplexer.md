@@ -1,0 +1,1 @@
+Demultiplexing refers to the opposite operation, whereby the signal is split again into its original components. Both terms are used in other areas (for example. video processing) to describe the general operation of combining different things into one and vice versa.
