@@ -68,6 +68,21 @@ while (events = demultiplexer.watch(watchedList)) {           // (2)
 }
 ```
 
+Let's see what happens in the preceding pseudocode:
+1. The resources are added to a data structure, associating each one of them with a specific operation. (in our example, a `read`)
+2. The demultiplexer is set up with the group of resources to be watched. The call to `demultiplexer.watch` is synchronous and blocks until any of the watched resources are ready for `read`.
+When this ocurrs, the event demultiplexer returns from the call and a new set of events is available to be processed.
+3. Each event returned by the event demultiplexer is processed. At this point, the resource associated with each event is guaranteed to be ready to read and to not block during the operation.
+When all the events are processed, the flow will block again on the event demultiplexer until new events are again available to be processed. This is call the **event loop**.
+
+It's interesting to see that, with this pattern, we can now handle several I/O operations inside a single thread, without using the busy-waiting technique. It should now be clearer why we are talking about demultiplexing; using just a single thread, we can deal with multiple resources. Figure 1.2. will help you visualize what's happening in a web server that uses a synchronous event demultiplexer and a single thread to handle multiple concurrent connections:
+
+![[event-demultiplexer.png]]
+
+As this shows, using only one thread does not impair our ability to run  multiple I/O-bound tasks concurrently. The tasks are spread over time, instead of being spread across multiple threads. This has the clear advantage of minimizing the total idle time of the thread, as is clearly shown in Figure 1.2.
+
+But this is not the only reason for choosing this I/O model. In fact, having a single thread also has a beneficial impact on the way programmers approach concurrency in general. Throughout the book, you will see how the absense of in-process race conditions and multiple threads to synchronize allows us to use much simpler concurrency strategies.
+
 
 
 
