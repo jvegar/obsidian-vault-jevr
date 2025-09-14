@@ -13,6 +13,6 @@ urls:
 - Namespace: Microsoft.AspNetCore.Builder
 The web application used to configure the HTTP pipeline, and routers.
 - Methods:
-  - CreateBuilder: Initializes a new instance of the WebApplicationBuilder class with preconfigured defaults.
+  - CreateBuilder: Initializes a new instance of the [[1757823016-webapplicationbuilder|WebApplicationBuilder]]class with preconfigured defaults.
 
 
